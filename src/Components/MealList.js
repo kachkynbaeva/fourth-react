@@ -9,6 +9,7 @@ const MealList = ({meals}) => {
                     <div key={meal.idMeal}
                          className={'col-4'}>
                         <MealCard meal={meal} />
+
                     </div>
                 )
             }
